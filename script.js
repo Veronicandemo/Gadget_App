@@ -1,7 +1,7 @@
 'use strict'
 const productsContainer = document.getElementById('items')
 const getproducts =  () => {
-  return  fetch('https://dummyjson.com/products/?limit=9&skip=3')
+  return  fetch('https://dummyjson.com/products/?limit=8&skip=3')
     .then( response => response.json())
     .then( data => data)
     .catch(error  =>error)
